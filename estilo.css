@@ -645,7 +645,15 @@ footer .arriba{
     font-size: 18px;
 }
 /* SECCION RESPONSIVE */
+@media screen and (max-width:1280px){
+    .inicio{
+        height: 130vh;
+    }
+}
 @media screen and (max-width:980px){
+    .inicio{
+        height: 126vh;
+    }
     nav{
         display: none;
     }
@@ -669,6 +677,10 @@ footer .arriba{
     }
 }
 @media screen and (max-width:700px){
+    .inicio{
+        height: 125vh;
+    }
+
     .sobremi .fila{
         display: block;
     }
@@ -711,5 +723,10 @@ footer .arriba{
     }
     .contacto .fila .col{
         width: 100%;
+    }
+    @media screen and (max-width:600px){
+        .inicio{
+            height: 130vh;
+        }
     }
 }
